@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A222589A269CDA8000F284A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2225899269CDA8000F284A2 /* AppDelegate.swift */; };
-		A222589C269CDA8000F284A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222589B269CDA8000F284A2 /* SceneDelegate.swift */; };
-		A222589E269CDA8000F284A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222589D269CDA8000F284A2 /* ContentView.swift */; };
-		A22258A0269CDA8000F284A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A222589F269CDA8000F284A2 /* Assets.xcassets */; };
-		A22258A3269CDA8000F284A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22258A2269CDA8000F284A2 /* Preview Assets.xcassets */; };
-		A22258A6269CDA8000F284A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22258A4269CDA8000F284A2 /* LaunchScreen.storyboard */; };
+		A20105F3269D39EF001696C0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20105F2269D39EF001696C0 /* TestView.swift */; };
+		A22258B4269CDB0100F284A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22258B3269CDB0100F284A2 /* AppDelegate.swift */; };
+		A22258B6269CDB0100F284A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22258B5269CDB0100F284A2 /* ContentView.swift */; };
+		A22258B8269CDB0200F284A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22258B7269CDB0200F284A2 /* Assets.xcassets */; };
+		A22258BB269CDB0200F284A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22258BA269CDB0200F284A2 /* Preview Assets.xcassets */; };
+		A22258BE269CDB0200F284A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22258BC269CDB0200F284A2 /* Main.storyboard */; };
+		A22258C5269CDB5F00F284A2 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22258C4269CDB5F00F284A2 /* helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2225896269CDA8000F284A2 /* SoyuzMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoyuzMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2225899269CDA8000F284A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A222589B269CDA8000F284A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A222589D269CDA8000F284A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A222589F269CDA8000F284A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A22258A2269CDA8000F284A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A22258A5269CDA8000F284A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A22258A7269CDA8000F284A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20105F2269D39EF001696C0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		A22258B1269CDB0100F284A2 /* AssetID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22258B3269CDB0100F284A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A22258B5269CDB0100F284A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A22258B7269CDB0200F284A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22258BA269CDB0200F284A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A22258BD269CDB0200F284A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22258BF269CDB0200F284A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22258C0269CDB0200F284A2 /* SoyuzMac_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoyuzMac_Mac.entitlements; sourceTree = "<group>"; };
+		A22258C4269CDB5F00F284A2 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2225893269CDA8000F284A2 /* Frameworks */ = {
+		A22258AE269CDB0100F284A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +43,7 @@
 		A222588D269CDA8000F284A2 = {
 			isa = PBXGroup;
 			children = (
-				A2225898269CDA8000F284A2 /* SoyuzMac */,
+				A22258B2269CDB0100F284A2 /* SoyuzMac_Mac */,
 				A2225897269CDA8000F284A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,29 +51,31 @@
 		A2225897269CDA8000F284A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2225896269CDA8000F284A2 /* SoyuzMac.app */,
+				A22258B1269CDB0100F284A2 /* AssetID.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2225898269CDA8000F284A2 /* SoyuzMac */ = {
+		A22258B2269CDB0100F284A2 /* SoyuzMac_Mac */ = {
 			isa = PBXGroup;
 			children = (
-				A2225899269CDA8000F284A2 /* AppDelegate.swift */,
-				A222589B269CDA8000F284A2 /* SceneDelegate.swift */,
-				A222589D269CDA8000F284A2 /* ContentView.swift */,
-				A222589F269CDA8000F284A2 /* Assets.xcassets */,
-				A22258A4269CDA8000F284A2 /* LaunchScreen.storyboard */,
-				A22258A7269CDA8000F284A2 /* Info.plist */,
-				A22258A1269CDA8000F284A2 /* Preview Content */,
+				A22258B3269CDB0100F284A2 /* AppDelegate.swift */,
+				A22258B5269CDB0100F284A2 /* ContentView.swift */,
+				A22258B7269CDB0200F284A2 /* Assets.xcassets */,
+				A22258BC269CDB0200F284A2 /* Main.storyboard */,
+				A22258BF269CDB0200F284A2 /* Info.plist */,
+				A22258C0269CDB0200F284A2 /* SoyuzMac_Mac.entitlements */,
+				A22258B9269CDB0200F284A2 /* Preview Content */,
+				A22258C4269CDB5F00F284A2 /* helper.swift */,
+				A20105F2269D39EF001696C0 /* TestView.swift */,
 			);
-			path = SoyuzMac;
+			path = SoyuzMac_Mac;
 			sourceTree = "<group>";
 		};
-		A22258A1269CDA8000F284A2 /* Preview Content */ = {
+		A22258B9269CDB0200F284A2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A22258A2269CDA8000F284A2 /* Preview Assets.xcassets */,
+				A22258BA269CDB0200F284A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,21 +83,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2225895269CDA8000F284A2 /* SoyuzMac */ = {
+		A22258B0269CDB0100F284A2 /* AssetID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A22258AA269CDA8000F284A2 /* Build configuration list for PBXNativeTarget "SoyuzMac" */;
+			buildConfigurationList = A22258C1269CDB0200F284A2 /* Build configuration list for PBXNativeTarget "AssetID" */;
 			buildPhases = (
-				A2225892269CDA8000F284A2 /* Sources */,
-				A2225893269CDA8000F284A2 /* Frameworks */,
-				A2225894269CDA8000F284A2 /* Resources */,
+				A22258AD269CDB0100F284A2 /* Sources */,
+				A22258AE269CDB0100F284A2 /* Frameworks */,
+				A22258AF269CDB0100F284A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SoyuzMac;
-			productName = SoyuzMac;
-			productReference = A2225896269CDA8000F284A2 /* SoyuzMac.app */;
+			name = AssetID;
+			productName = SoyuzMac_Mac;
+			productReference = A22258B1269CDB0100F284A2 /* AssetID.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,12 +109,12 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					A2225895269CDA8000F284A2 = {
+					A22258B0269CDB0100F284A2 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = A2225891269CDA8000F284A2 /* Build configuration list for PBXProject "SoyuzMac" */;
+			buildConfigurationList = A2225891269CDA8000F284A2 /* Build configuration list for PBXProject "AssetID Mac" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,44 +127,45 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2225895269CDA8000F284A2 /* SoyuzMac */,
+				A22258B0269CDB0100F284A2 /* AssetID */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A2225894269CDA8000F284A2 /* Resources */ = {
+		A22258AF269CDB0100F284A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22258A6269CDA8000F284A2 /* LaunchScreen.storyboard in Resources */,
-				A22258A3269CDA8000F284A2 /* Preview Assets.xcassets in Resources */,
-				A22258A0269CDA8000F284A2 /* Assets.xcassets in Resources */,
+				A22258BE269CDB0200F284A2 /* Main.storyboard in Resources */,
+				A22258BB269CDB0200F284A2 /* Preview Assets.xcassets in Resources */,
+				A22258B8269CDB0200F284A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A2225892269CDA8000F284A2 /* Sources */ = {
+		A22258AD269CDB0100F284A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A222589A269CDA8000F284A2 /* AppDelegate.swift in Sources */,
-				A222589C269CDA8000F284A2 /* SceneDelegate.swift in Sources */,
-				A222589E269CDA8000F284A2 /* ContentView.swift in Sources */,
+				A20105F3269D39EF001696C0 /* TestView.swift in Sources */,
+				A22258C5269CDB5F00F284A2 /* helper.swift in Sources */,
+				A22258B6269CDB0100F284A2 /* ContentView.swift in Sources */,
+				A22258B4269CDB0100F284A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A22258A4269CDA8000F284A2 /* LaunchScreen.storyboard */ = {
+		A22258BC269CDB0200F284A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A22258A5269CDA8000F284A2 /* Base */,
+				A22258BD269CDB0200F284A2 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,52 +287,64 @@
 			};
 			name = Release;
 		};
-		A22258AB269CDA8000F284A2 /* Debug */ = {
+		A22258C2269CDB0200F284A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoyuzMac_Mac/SoyuzMac_Mac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SoyuzMac/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1A104;
+				DEVELOPMENT_ASSET_PATHS = "\"SoyuzMac_Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = A97W42FALD;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SoyuzMac/Info.plist;
+				INFOPLIST_FILE = SoyuzMac_Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackglove.dev.SoyuzMac;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackglove.dev.SoyuzMac-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A22258AC269CDA8000F284A2 /* Release */ = {
+		A22258C3269CDB0200F284A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoyuzMac_Mac/SoyuzMac_Mac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SoyuzMac/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1A104;
+				DEVELOPMENT_ASSET_PATHS = "\"SoyuzMac_Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = A97W42FALD;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SoyuzMac/Info.plist;
+				INFOPLIST_FILE = SoyuzMac_Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackglove.dev.SoyuzMac;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackglove.dev.SoyuzMac-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2225891269CDA8000F284A2 /* Build configuration list for PBXProject "SoyuzMac" */ = {
+		A2225891269CDA8000F284A2 /* Build configuration list for PBXProject "AssetID Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A22258A8269CDA8000F284A2 /* Debug */,
@@ -335,11 +353,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A22258AA269CDA8000F284A2 /* Build configuration list for PBXNativeTarget "SoyuzMac" */ = {
+		A22258C1269CDB0200F284A2 /* Build configuration list for PBXNativeTarget "AssetID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A22258AB269CDA8000F284A2 /* Debug */,
-				A22258AC269CDA8000F284A2 /* Release */,
+				A22258C2269CDB0200F284A2 /* Debug */,
+				A22258C3269CDB0200F284A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
